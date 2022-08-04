@@ -1,5 +1,6 @@
 tasks:
-  run-tests:
+  build-deps:
+    runner: node:10
     steps:
     - checkout
     - commands:
