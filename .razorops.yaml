@@ -3,7 +3,7 @@ tasks:
     steps:
     - checkout
     - commands:
-      - npm install save-dev enzyme
-      - npm install save-dev enzyme-adapter-react-16
-      - npm run lint
+     # - npm install save-dev enzyme
+     # - npm install save-dev enzyme-adapter-react-16
+     # - npm run lint
       - npm test
