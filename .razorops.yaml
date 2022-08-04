@@ -4,6 +4,6 @@ tasks:
     steps:
     - checkout
     - commands:
-      - cd react-playbook/packages/jest-enzyme
+      - cd react-enzyme/packages/jest-enzyme
       - npm install
       - npm test
