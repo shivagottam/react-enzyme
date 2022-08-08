@@ -4,7 +4,7 @@ tasks:
     steps:
     - checkout
     - commands:
-      # - cd packages/jest-enzyme
-      - cd packages/typescript-jest
+      - cd packages/jest-enzyme
+      # - cd packages/typescript-jest
       - npm install
       - npm test
